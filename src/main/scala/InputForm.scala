@@ -10,7 +10,7 @@ object InputForm:
 
     div(
       h2("Question"),
-      textarea(
+      textArea(
         placeholder := "Enter your question",
         onInput.mapToValue --> questionVar
       ),
