@@ -11,3 +11,4 @@ scalaJSUseMainModuleInitializer := true
 scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.ESModule) }
 
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.8.0"
+libraryDependencies += "com.raquo" %%% "laminar" % "17.2.1"
